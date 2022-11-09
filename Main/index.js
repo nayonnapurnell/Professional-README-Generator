@@ -1,4 +1,4 @@
-// TODO: Include packages needed for this application
+// Include packages needed for this application
 const inquirer = require("inquirer")
 const fs = require('fs');
 
@@ -12,57 +12,82 @@ inquirer
     },
     {
       type: 'input',
-      name: 'projectSummary',
-      message: 'What is your Project Summary?',
+      name: 'projectDescription',
+      message: 'What is your Project Description?',
     },
     {
       type: 'input',
-      name: 'builtWith',
-      message: 'What did you build your project with?',
+      name: 'table_of_contents',
+      message: 'What is your Table of Contents?',
     },
     {
       type: 'input',
-      name: 'prerequisites',
+      name: 'installation',
       message: 'What do you need before installing the software?',
     },
     {
-      type: 'input',
-      name: 'linkedin',
-      message: 'Enter your LinkedIn URL.',
+        type: 'input',
+        name: 'usage',
+        message: 'What do you need before installing the software?',
+      },
+    {
+        type: 'input',
+        name: 'license',
+        message: 'What do you need before installing the software?',
     },
     {
         type: 'input',
-        name: 'projectLink',
-        message: 'What is the link to your project?',
-      },
+        name: 'contributing',
+        message: 'What do you need before installing the software?',
+    },
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'What do you need before installing the software?',
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'What is your github username?',
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email?',
+    },
   ])
 
 // TODO: Create a function to write README file
-const writeToFile = ({fileName, projectTitle, projectSummary,builtWith, prerequisites,data}) => 
+const writeToFile = ({fileName, projectTitle, projectDescription,table_of_contents, github, email, prerequisites,data}) => 
 `
-# ${projectTitle}
-A short description about the project and/or client.
+# Project Title: ${projectTitle}
 
-## Project Summary
-${projectSummary}
+## Project Description
+${projectDescription}
 
-## Built With
+## Table of Contents
 This section should list any major frameworks/libraries used to bootstrap your project. 
 Leave any add-ons/plugins for the acknowledgements section. 
-${builtWith}
+${table_of_contents}
 
 ## Getting Started
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-## Prerequisites
-The things you need before installing the software.
-${prerequisites}
-
 ## Installation
 A step by step guide that will tell you how to get the development environment up and running.
 
+## Usage
 
+## License
+
+## Contributing
+
+## Tests
+
+## Questions
+${github}
+${email}
 `;
 
 // TODO: Create a function to initialize app
