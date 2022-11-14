@@ -134,12 +134,15 @@ Don’t forget to link out to anything useful, to prevent anyone from getting st
 ${usage}
 
 ## License
+You should add a copyright notice and a link to the license that your project is released under. 
+Without this information a lot of users, especially working in larger organisations, won’t be able to use your project.
 
 ## Contributors
 This section should cover the basics and then link out to your CONTRIBUTING file if you have one.
 This is also where you should add a link to your code of conduct, if you have one. 
 You can make new contributors feel more comfortable, and assure them that any issues they have will be resolved. 
 A good code of conduct to use is the Contributor Covenant.(https://www.contributor-covenant.org/)
+${contributors}
 
 ## Tests
 
