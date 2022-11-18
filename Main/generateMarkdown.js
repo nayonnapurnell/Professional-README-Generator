@@ -36,42 +36,66 @@ function renderLicenseSection(license) {
 
 function generateMarkdown({ projectTitle, projectDescription, installation, usage, license, contributors, github, email}) {
   return `
-  #Project Title: ${projectTitle}
-
-  ##Project Description
+  # Project Title: ${projectTitle}
+ 
+  ## Project Description
+  ------
   ${projectDescription}
 
-  ##### Table of Contents  
-  [Installation Requirements](##Setup/Installation Requirements)  
-  [Usage](##Usage)
-  [License](##License)  
-  [Contributors](##Contributors)
-  [Questions](##Questions)
-  [Tests](##Tests)
+  ## Table of Contents
+  ------  
+  - [Setup](#setup)
+  - [Usage](#usage)
+  - [License](#License)
+  - [Contributors](#Contributors)
+  - [Questions](#Questions)
+  - [Tests](#Tests)
   
-  ##Setup/Installation Requirements
-  The below information is for the lists of setup instructions.
+
+  ## Setup 
+  ------
+
+  The below information is for the lists of setup instructions:\
   ${installation}
   
-  ##Usage
-  The section below is for code samples so that you can copy and paste the snippets into your project. 
+
+  
+  ## Usage 
+  ------
+
+  The section below is for code samples so that you can copy and paste the snippets into your project:\
   ${usage}
   
-  ##License
-  ${renderLicenseSection(license)}
-  ${renderLicenseBadge(license)}
-  ${renderLicenseLink(license)}
+
+
+  ## License
+  ------
+
+  ${renderLicenseSection(license)}\
+  ${renderLicenseBadge(license)}\
+  ${renderLicenseLink(license)}\
   
-  ##Contributors
-  Below are the names of all the people who gave something to the project and made it what it is today:
+
+  
+  ## Contributors
+  ------
+
+  Below are the names of all the people who gave something to the project and made it what it is today:<br>
   ${contributors}
 
-  ##Questions
-  If you have addtional questions, feel free to reach me on Github or via email.
-  Github Profile:  https://github.com/${github} 
-  Email: ${email}
+
   
-  ##Tests
+  ## Questions
+  ------
+  
+  If you have addtional questions, feel free to reach me on Github or via email.
+  * Github Profile:  https://github.com/${github} 
+  * Email: ${email}
+  
+
+ 
+  ## Tests
+  ------
   `
 }
 
