@@ -47,6 +47,7 @@ function generateMarkdown({ projectTitle, projectDescription, installation, usag
   [License](##License)  
   [Contributors](##Contributors)
   [Questions](##Questions)
+  [Tests](##Tests)
   
   ##Setup/Installation Requirements
   The below information is for the lists of setup instructions.
@@ -70,8 +71,7 @@ function generateMarkdown({ projectTitle, projectDescription, installation, usag
   Github Profile:  https://github.com/${github} 
   Email: ${email}
   
-  
-  ## Tests
+  ##Tests
   `
 }
 
