@@ -35,6 +35,16 @@ const promptUser = () => {
 },
 {
   type: 'input',
+  name: 'github',
+  message: 'What is the Github username you want to add to the README?',
+},
+{
+  type: 'input',
+  name: 'email',
+  message: 'What is the email address to add to the README?',
+},
+{
+  type: 'input',
   name: 'contributors',
   message: 'List the names of your contributors.',
 },

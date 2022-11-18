@@ -34,36 +34,42 @@ function renderLicenseSection(license) {
  }
 }
 
-function generateMarkdown({ projectTitle, projectDescription, installation, usage, license, contributors}) {
+function generateMarkdown({ projectTitle, projectDescription, installation, usage, license, contributors, github, email}) {
   return `
-  # Project Title: ${projectTitle}
-  
-  ## Project Description
+  #Project Title: ${projectTitle}
+
+  ##Project Description
   ${projectDescription}
+
+  ##### Table of Contents  
+  [Installation Requirements](##Setup/Installation Requirements)  
+  [Usage](##Usage)
+  [License](##License)  
+  [Contributors](##Contributors)
+  [Questions](##Questions)
   
-  ## Setup/Installation Requirements
-  This is a great place to list setup instructions in a simple easy-to-understand format.
-  Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. 
-  Do I need to run a server? How should I set up my databases? Is there other code this application depends on? 
+  ##Setup/Installation Requirements
+  The below information is for the lists of setup instructions.
   ${installation}
   
-  ## Usage
-  Your usage documentation is probably the most important part of your README, without it very few people are going to trawl through your code to get it working.
-  Firstly we need to mention how to get hold of the code, whether it’s by cloning the repo or installing through a package manager. 
-  Don’t forget to link out to anything useful, to prevent anyone from getting stuck.
+  ##Usage
+  The section below is for code samples so that you can copy and paste the snippets into your project. 
   ${usage}
   
-  ## License
+  ##License
   ${renderLicenseSection(license)}
   ${renderLicenseBadge(license)}
   ${renderLicenseLink(license)}
   
-  ## Contributors
-  This section should cover the basics and then link out to your CONTRIBUTING file if you have one.
-  This is also where you should add a link to your code of conduct, if you have one. 
-  You can make new contributors feel more comfortable, and assure them that any issues they have will be resolved. 
-  A good code of conduct to use is the Contributor Covenant.(https://www.contributor-covenant.org/)
+  ##Contributors
+  Below are the names of all the people who gave something to the project and made it what it is today:
   ${contributors}
+
+  ##Questions
+  If you have addtional questions, feel free to reach me on Github or via email.
+  Github Profile:  https://github.com/${github} 
+  Email: ${email}
+  
   
   ## Tests
   `
