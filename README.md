@@ -40,7 +40,7 @@ This is a command-line application that runs with Node.js that dynamically gener
   ## Usage 
   ------
 
-  ![ProjectScreenshots] (./assets/readmeGif.gif)
+  ![ProjectScreenshots](./assets/images/readmeGif.gif)
 
 This will write a file, readme.md, to the local directory.
 
