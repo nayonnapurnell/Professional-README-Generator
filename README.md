@@ -66,5 +66,5 @@ List the names of your contributors.
 
    ## Contact
   ------
-  [LinkedIn] LinkedIn: https://www.linkedin.com/in/nayonnapurnell/
-  [Email] Email:  nayonnapurnell@outlook.com
+  [LinkedIn]LinkedIn: https://www.linkedin.com/in/nayonnapurnell/
+  [Email]Email:  nayonnapurnell@outlook.com
