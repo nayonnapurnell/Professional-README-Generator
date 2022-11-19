@@ -13,7 +13,7 @@ This is a command-line application that runs with Node.js that dynamically gener
   - [Setup](#setup)
   - [Usage](#usage)
   - [License](#license)
-  - [Contributors](#contributors)
+  - [Author](#author)
   - [Contact](#contact)
   
  ## Setup 
@@ -60,11 +60,11 @@ List the names of your contributors.
   ------
  A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.  ![MIT License](https://img.shields.io/badge/license-MIT-brightgreen)  [MIT License](https://choosealicense.com/licenses/mit/)  
 
-   ## Contributors
+   ## Author
   ------
-  Author: Nayonna Purnell
+  Nayonna Purnell
 
    ## Contact
   ------
-  [LinkedIn]LinkedIn: https://www.linkedin.com/in/nayonnapurnell/
-  [Email]Email:  nayonnapurnell@outlook.com
+  LinkedIn: https://www.linkedin.com/in/nayonnapurnell/
+  Email:  nayonnapurnell@outlook.com

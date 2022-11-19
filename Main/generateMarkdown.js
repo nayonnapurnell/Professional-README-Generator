@@ -46,10 +46,10 @@ function generateMarkdown({ projectTitle, projectDescription, installation, usag
   ------  
   - [Setup](#setup)
   - [Usage](#usage)
-  - [License](#License)
-  - [Contributors](#Contributors)
-  - [Questions](#Questions)
-  - [Tests](#Tests)
+  - [License](#license)
+  - [Contributors](#contributors)
+  - [Questions](#questions)
+  - [Tests](#tests)
   
 
   ## Setup 
