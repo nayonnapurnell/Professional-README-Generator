@@ -71,5 +71,4 @@ List the names of your contributors.
 
   ## Video Walkthrough
   ------
-
-  ![ProjectScreenshots](./assets/images/walkthroughVideo.webm)
+[Video_Walkthrough]https://drive.google.com/file/d/17Bm5E0vLPAQ2GpBnxPcKIl9y2OJMreKm/view
