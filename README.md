@@ -71,4 +71,4 @@ List the names of your contributors.
 
   ## Video Walkthrough
   ------
-![Video_Walkthrough](./assets/images/readmeGeneratorWalkthrough.mp4)
+[Video_Walkthrough](./assets/images/readmeGeneratorWalkthrough.mp4)
