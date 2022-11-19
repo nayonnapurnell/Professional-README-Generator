@@ -68,3 +68,8 @@ List the names of your contributors.
   ------
   LinkedIn: https://www.linkedin.com/in/nayonnapurnell/
   Email:  nayonnapurnell@outlook.com
+
+  ## Video Walkthrough
+  ------
+
+  ![ProjectScreenshots](./assets/walkthroughVideo.webm)

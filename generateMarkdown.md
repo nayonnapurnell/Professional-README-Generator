@@ -1,24 +1,24 @@
 
-  # Project Title: Test
+  # Project Title: Test README generator
  
   ## Project Description
   ------
-  Test file
+  This is a readme file.
 
   ## Table of Contents
   ------  
   - [Setup](#setup)
   - [Usage](#usage)
-  - [License](#License)
-  - [Contributors](#Contributors)
-  - [Questions](#Questions)
-  - [Tests](#Tests)
+  - [License](#license)
+  - [Contributors](#contributors)
+  - [Questions](#questions)
+  - [Tests](#tests)
   
 
   ## Setup 
   ------
 
-  The below information is for the lists of setup instructions:  Test.com
+  The below information is for the lists of setup instructions:  npm i
   
 
   
@@ -39,7 +39,7 @@
   ------
 
   Below are the names of all the people who gave something to the project and made it what it is today:
-  nayonna
+  Nayonna Purnell
 
 
   
@@ -47,8 +47,8 @@
   ------
 
   If you have addtional questions, feel free to reach me on Github or via email.
-  * Github Profile:  https://github.com/nayonna 
-  * Email: nayonna@test.com
+  * Github Profile:  https://github.com/nayonnapurnell 
+  * Email: nayonnapurnell@outlook.com
   
 
  
