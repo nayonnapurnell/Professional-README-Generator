@@ -80,14 +80,14 @@ function generateMarkdown({ projectTitle, projectDescription, installation, usag
   ## Contributors
   ------
 
-  Below are the names of all the people who gave something to the project and made it what it is today:<br>
+  Below are the names of all the people who gave something to the project and made it what it is today:
   ${contributors}
 
 
   
   ## Questions
   ------
-  
+
   If you have addtional questions, feel free to reach me on Github or via email.
   * Github Profile:  https://github.com/${github} 
   * Email: ${email}

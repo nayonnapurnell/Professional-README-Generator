@@ -29,9 +29,6 @@ const promptUser = () => {
   name: 'license',
   message: 'What license do you want for your project?',
   choices: ['MIT License', 'GNU GPLv3 License', 'Mozilla Public License 2.0', 'Apache License 2.0'],
-  filter(val) {
-    return val.toLowerCase();
-  },
 },
 {
   type: 'input',

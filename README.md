@@ -1,47 +1,70 @@
-# Professional README Generator using Node.JS
+# Professional README Generator using Node.JS and ES6+
 
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+## Project Description
+ ------
+This tool provides an easy way to create a Project Repository README.
 
+The README generator helps you provide information on how to use the app, how to install it, and how to make contributions so that other developers are more likely to use and contribute to the success of the project.
 
-When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions&mdash;this last part increases the likelihood that other developers will contribute to the success of the project. 
+This is a command-line application that runs with Node.js that dynamically generates a README.md file based on input about your project.
 
-You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
+## Table of Contents
+  ------  
+  - [Setup](#setup)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributors](#contributors)
+  - [Contact](#contact)
+  
+ ## Setup 
+  ------
 
-Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4). Review the [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) as a reminder of everything that a high-quality, professional README should contain. 
+  To generate your own README, git clone the repo down to your local computer.
 
-The application will be invoked by using the following command:
+  This generator requires node, npm, and inquirer.
 
-```bash
-node index.js
-```
+  Check that you have node installed with the command.
+  node -v
 
-Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality. Revisit the Screencastify Tutorial in the prework as a refresher on how to record video from your computer. You’ll need to submit a link to the video _and_ add it to the README of your project.
+  Check that you have npm installed with the command.
+  npm -v
 
+  Next, run npm i in your terminal to get all the necessary node modules for your package.json file.
 
-## User Story
+  The application will start by running node main.js in the command line.
 
-```md
-AS A developer
-I WANT a README generator
-SO THAT I can quickly create a professional README for a new project
-```
+  Answer the prompts in your command line to generate the README.
 
-## Acceptance Criteria
+  After answering all the prompts, your README file will be named 'generateMarkdown.md' and will be ready for you at the root of the repo.
 
-```md
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for information about my application repository
-THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-WHEN I enter my project title
-THEN this is displayed as the title of the README
-WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-WHEN I choose a license for my application from a list of options
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-WHEN I enter my GitHub username
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-WHEN I enter my email address
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-WHEN I click on the links in the Table of Contents
-THEN I am taken to the corresponding section of the README
-```
+  ## Usage 
+  ------
+
+  ![ProjectScreenshots] (./assets/readmeGif.gif)
+
+This will write a file, readme.md, to the local directory.
+
+The README generator will ask you a set of questions, which will help it fill out the README. These are:
+
+What is your Project Title?
+What is your Project Description?
+List out the installation instructions if you have any.
+List out any useful links to prevent your users from getting stuck.
+What license do you want for your project?
+What is the Github username you want to add to the README?
+What is the email address to add to the README?
+List the names of your contributors.
+
+  
+  ## License
+  ------
+ A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.  ![MIT License](https://img.shields.io/badge/license-MIT-brightgreen)  [MIT License](https://choosealicense.com/licenses/mit/)  
+
+   ## Contributors
+  ------
+  Author: Nayonna Purnell
+
+   ## Contact
+  ------
+  [LinkedIn] LinkedIn: https://www.linkedin.com/in/nayonnapurnell/
+  [Email] Email:  nayonnapurnell@outlook.com
