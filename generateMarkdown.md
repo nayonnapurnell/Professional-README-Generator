@@ -1,9 +1,9 @@
 
-  # Project Title: Test ReadME
+  # Project Title: README Generator Test
  
   ## Project Description
   ------
-  test file
+  ReadME test
 
   ## Table of Contents
   ------  
@@ -18,14 +18,14 @@
   ## Setup 
   ------
 
-  The below information is for the lists of setup instructions:  test file
+  The below information is for the lists of setup instructions:  test instructions
   
 
   
   ## Usage 
   ------
 
-  The section below is for code samples so that you can copy and paste the snippets into your project:  www.test.com
+  The section below is for code samples so that you can copy and paste the snippets into your project:  test.cm
   
 
 

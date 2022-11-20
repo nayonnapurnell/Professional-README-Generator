@@ -41,6 +41,8 @@ This is a command-line application that runs with Node.js that dynamically gener
   ## Usage 
   ------
 
+![Video_Walkthrough](./assets/images/readme-walkthrough.gif)
+
 This will write a file, readme.md, to the local directory.
 
 The README generator will ask you a set of questions, which will help it fill out the README. These are:
@@ -68,7 +70,5 @@ List the names of your contributors.
   * LinkedIn: https://www.linkedin.com/in/nayonnapurnell/
   * Email:  nayonnapurnell@outlook.com
 
-  ## Video Walkthrough
-  ------
+ 
 
-![Video_Walkthrough](./assets/images/readmeGeneratorWalkthrough.mp4)
