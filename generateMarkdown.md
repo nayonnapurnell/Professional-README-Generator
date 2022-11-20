@@ -1,9 +1,9 @@
 
-  # Project Title: README Generator Test
+  # Project Title: Test ReadME 
  
   ## Project Description
   ------
-  ReadME test
+  this file is the tester readme.
 
   ## Table of Contents
   ------  
@@ -18,21 +18,21 @@
   ## Setup 
   ------
 
-  The below information is for the lists of setup instructions:  test instructions
+  The below information is for the lists of setup instructions:  test steps
   
 
   
   ## Usage 
   ------
 
-  The section below is for code samples so that you can copy and paste the snippets into your project:  test.cm
+  The section below is for code samples so that you can copy and paste the snippets into your project:  test.com
   
 
 
   ## License
   ------
 
-  A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.  ![MIT License](https://img.shields.io/badge/license-MIT-brightgreen)  [MIT License](https://choosealicense.com/licenses/mit/)  
+  Permissions of this weak copyleft license are conditioned on making available source code of licensed files and modifications of those files under the same license (or in certain cases, one of the GNU licenses). Copyright and license notices must be preserved. Contributors provide an express grant of patent rights. However, a larger work using the licensed work may be distributed under different terms and without source code for files added in the larger work.  ![Mozilla Public License 2.0](https://img.shields.io/badge/license-MPL-brightgreen)  [Mozilla Public License 2.0](http://mozilla.org/MPL/2.0/)  
 
   
   ## Contributors

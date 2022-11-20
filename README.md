@@ -41,7 +41,7 @@ This is a command-line application that runs with Node.js that dynamically gener
   ## Usage 
   ------
 
-![Video_Walkthrough](./assets/images/readme-walkthrough.gif)
+![Video_Walkthrough](./assets/images/readmeGeneratorWalkthrough.gif)
 
 This will write a file, readme.md, to the local directory.
 
