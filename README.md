@@ -40,8 +40,6 @@ This is a command-line application that runs with Node.js that dynamically gener
   ## Usage 
   ------
 
-  ![ProjectScreenshots](./assets/images/readmeGif.gif)
-
 This will write a file, readme.md, to the local directory.
 
 The README generator will ask you a set of questions, which will help it fill out the README. These are:
@@ -72,4 +70,4 @@ List the names of your contributors.
   ## Video Walkthrough
   ------
 
-[![Video_Walkthrough](.assets/../assets/images/readmeMP4Image.png)](./assets/images/readmeGeneratorWalkthrough.mp4 "README Generator Walkthrough Video")
+![[Video_Walkthrough](.assets/../assets/images/readmeMP4Image.png)](./assets/images/readmeGeneratorWalkthrough.mp4 "README Generator Walkthrough Video")
